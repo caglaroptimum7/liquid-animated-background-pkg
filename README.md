@@ -1,6 +1,11 @@
 # Liquid Animated Background
 
+[![npm version](https://img.shields.io/npm/v/liquid-animated-background.svg)](https://www.npmjs.com/package/liquid-animated-background)
+[![npm downloads](https://img.shields.io/npm/dm/liquid-animated-background.svg)](https://www.npmjs.com/package/liquid-animated-background)
+
 Configurable animated liquid/blob background component for **React** and **Next.js**.
+
+**[Live Configurator Demo](https://caglaroptimum7.github.io/liquid-animated-background-configurator/)** — design your background visually, then copy the config and paste it into your project.
 
 ## Install
 
@@ -94,26 +99,36 @@ function CustomBackground({ config }) {
 
 ## Props
 
-| Prop | Type | Description |
-|------|------|-------------|
-| `config` | `LiquidBackgroundConfig` | Configuration object (paste from configurator) |
-| `className` | `string` | CSS class for the container |
-| `style` | `CSSProperties` | Inline styles for the container |
-| `children` | `ReactNode` | Content rendered on top of the background |
+| Prop        | Type                      | Description                                      |
+| ----------- | ------------------------- | ------------------------------------------------ |
+| `config`    | `LiquidBackgroundConfig`  | Configuration object (paste from configurator)   |
+| `className` | `string`                  | CSS class for the container                      |
+| `style`     | `CSSProperties`           | Inline styles for the container                  |
+| `children`  | `ReactNode`               | Content rendered on top of the background        |
 
 ## Config
 
-| Key | Type | Default | Description |
-|-----|------|---------|-------------|
-| `backgroundColor` | `string` | `#000000` | Base background color |
-| `blobs` | `BlobConfig[]` | 4 blobs | Blob color + animation offset |
-| `blur` | `number` | `100` | Blur amount in px |
-| `opacity` | `number` | `1` | Canvas opacity |
-| `speed` | `number` | `5` | Animation speed |
-| `blendMode` | `string` | `screen` | CSS blend mode |
-| `interactive` | `boolean` | `true` | Mouse/touch interaction |
-| `blobRadius` | `number` | `0.5` | Blob size (fraction of canvas) |
+| Key               | Type         | Default   | Description                    |
+| ----------------- | ------------ | --------- | ------------------------------ |
+| `backgroundColor` | `string`     | `#000000` | Base background color          |
+| `blobs`           | `BlobConfig[]` | 4 blobs | Blob color + animation offset  |
+| `blur`            | `number`     | `100`     | Blur amount in px              |
+| `opacity`         | `number`     | `1`       | Canvas opacity                 |
+| `speed`           | `number`     | `5`       | Animation speed                |
+| `blendMode`       | `string`     | `screen`  | CSS blend mode                 |
+| `interactive`     | `boolean`    | `true`    | Mouse/touch interaction        |
+| `blobRadius`      | `number`     | `0.5`     | Blob size (fraction of canvas) |
+
+## Related
+
+- [Configurator Source Code](https://github.com/caglaroptimum7/liquid-animated-background-configurator)
 
 ## License
 
 MIT
+
+---
+
+Developed by [Caglar Ergul](https://github.com/caglaroptimum7) at [Optimum7](https://optimum7.com)
+
+Copyright &copy; 2026 [Caglar Ergul](https://github.com/caglaroptimum7) / [Optimum7](https://optimum7.com). All rights reserved.
